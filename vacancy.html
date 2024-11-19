@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacancy</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/vacancy.css">
+</head>
+
+<body onload="recent()">
+    <!-- <script src="js/vacancy.js">
+        recent()
+    </script> -->
+
+    <h1>Vacancy Search</h1>    
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="takehome.html">Take-Home Pay Calculator</a>
+            <a class="nav-item nav-link" href="vacancy.html">Vacancy Search</a>
+        </div>
+        
+    </nav>
+    <br>
+
+    <!-- <h2>Recent Vacancies</h2>
+    <p id="recentVacancy"></p> -->
+
+    <h4>Recent Vacancies</h4>
+
+    <input type="text" id="userInput" placeholder="Job Title">
+    <br>
+    <input type="text" id="location" placeholder="Location">
+
+    <button onclick="vacancySearch()">
+        Search
+    </button>
+    
+    <h4 id="searchText"></h4>
+    <div class="row" id="rowBox">
+        <div class="col-md-6" >
+  
+            <!-- <p id="recentBox"></p> -->
+            
+        </div>        
+
+        <div class="col-md-6" >
+
+        </div>
+    </div>
+
+    <p id="searchBox"></p>
+
+    <script src="js/vacancy.js"></script>
+</body>
+
+</html>

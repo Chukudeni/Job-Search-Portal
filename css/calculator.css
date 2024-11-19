@@ -1,0 +1,38 @@
+body{
+    margin: 10px;
+    text-align: center;
+    background-color: aliceblue;
+}   
+
+input[type = button]{
+    background-color: blue;
+    border-radius: 15px;
+    color: whitesmoke;
+    /* margin-top: 20px; */
+    width: 100px;
+    border: none;
+    padding: 10px;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#info{
+    font-size: large;
+    text-wrap: pretty;
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+}
+
+.navbar{
+    margin-bottom: 50px;
+}
+
+h1{
+    color: darkslateblue
+}

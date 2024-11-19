@@ -1,0 +1,36 @@
+body{
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+button{
+    background-color: blue;
+    border-radius: 15px;
+    color: whitesmoke;
+    margin-left: 20px;
+    width: 100px;
+    border: none;
+    padding: 10px;
+}
+
+#recentBox{
+    width: 100%;
+    font-size: x-large;
+    text-align: left;
+    font-family: Calibri;
+    font-style: italic;
+}
+
+#searchBox{
+    width: 100%;
+    font-size: x-large;
+    text-align: left;
+    font-family: Bookman Old Style;
+    font-style: italic;
+    text-wrap: pretty;
+    contain: content;
+}
+
+#rowBox{
+    width: 100%;
+}

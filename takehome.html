@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+
+<body>
+    <h1>Take-Home Calculator</h1>    
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="takehome.html">Take-Home Pay Calculator</a>
+            <a class="nav-item nav-link" href="vacancy.html">Vacancy Search</a>
+        </div>
+    </nav>
+
+    <!-- form to take in user data and send to javascript -->
+    <form>
+        <input type="text" id="jobTitle" placeholder="Job Title">
+        <br>
+        <input type="number" id="hours" placeholder="Working Hours per week">
+        <br>
+        <input type="number" id="pay" placeholder="Gross Pay Earned per Hour">
+        <!-- <br>
+        Year
+        <input type="checkbox" id="year" placeholder="Gross Pay Earned per Year" >
+        
+        Month
+        <input type="checkbox" id="month" placeholder="Gross Pay Earned per Month">
+        
+        Week
+        <input type="checkbox" id="week" placeholder="Gross Pay Earned per Week">
+        
+        Hour
+        <input type="checkbox" id="hour" placeholder="Gross Pay Earned per Hour"> -->
+        <br>
+        <input type="number" id="tax" placeholder="Tax Rate">
+        <br>
+        <input type="number" id="ni" placeholder="NI Rate">
+        <br>
+        <input value="Submit" type="button" onclick="printInfo()" id="submit">
+    </form>
+    
+    <!-- <div class="row"> -->
+        <!-- <div class="col-md-4"> -->
+            <p id="info">
+
+            </p>
+        <!-- </div> -->
+        
+        <!-- <div class="col-md-4"></div> -->
+    <!-- </div> -->
+    
+
+    <script src="js/calc.js"></script>
+</body>
+
+</html>
