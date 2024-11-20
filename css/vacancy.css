@@ -1,16 +1,28 @@
 body{
-    margin: 10px;
-    background-color: aliceblue;
+    padding: 20px;
+    background-image: url(../images/abstract-background-waves-white-royal-blue-abstract-background-wallpaper-business-card-abstract-background-waves-white-177869476.webp);
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+h1{
+    text-align: left;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
 }
 
 button{
-    background-color: blue;
+    background-color: skyblue;
     border-radius: 15px;
     color: whitesmoke;
     margin-left: 20px;
     width: 100px;
     border: none;
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 #recentBox{
@@ -22,13 +34,18 @@ button{
 }
 
 #searchBox{
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
     font-size: x-large;
     text-align: left;
     font-family: Bookman Old Style;
     font-style: italic;
     text-wrap: pretty;
     contain: content;
+    color: brown;
+    background-color: aliceblue;
+
 }
 
 #rowBox{
