@@ -1,8 +1,8 @@
 body{
     padding: 20px;
     background-image: url(../images/abstract-background-waves-white-royal-blue-abstract-background-wallpaper-business-card-abstract-background-waves-white-177869476.webp);
-    background-repeat: repeat-y;
-    background-size: cover;
+    background-repeat: round;
+    background-size: auto;
     color: aliceblue;
 
 }
