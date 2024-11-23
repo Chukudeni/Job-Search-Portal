@@ -25,7 +25,7 @@ function printInfo(){
         " Job: " + title + '\n' + " Working " + workHours 
         + " hours a week for a gross pay of $" + pay 
         + " per hour with " + taxes + "% Tax and " + niRate 
-        + "% NI,"+'\n'+ "Results in a take-home pay of :" 
+        + "% NI,"+'\n'+'\n'+ "Results in a take-home pay of :" 
         + '\n' + "Your take home pay per hour is $"+ thPayHour+ '\n'
         + " Your take home pay per week is $" + thPayWeek + '\n'
         +" Your take home pay per month is $" + thPayMonth + '\n'
