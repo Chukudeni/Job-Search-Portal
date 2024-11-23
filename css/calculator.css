@@ -1,17 +1,19 @@
 body{
     padding: 20px;
-    background-image: url(../images/abstract-background-waves-white-royal-blue-abstract-background-wallpaper-business-card-abstract-background-waves-white-177869476.webp);
-    background-repeat: repeat-y;
-    background-size: cover;     
     text-align: center;
     background-color: aliceblue;
 }   
 
 h1{
+    background-image: url(../images/abstract-background-waves-white-royal-blue-abstract-background-wallpaper-business-card-abstract-background-waves-white-177869476.webp);
+    background-repeat: repeat-y;
+    background-size: cover;     
+
     text-align: left;
     width: 100%;
     height: 100px;
-    padding-top: 20px;
+    padding: 20px;
+    color: aliceblue;
 }
 
 input[type = button]{
@@ -43,3 +45,17 @@ input{
     margin-bottom: 50px;
 }
 
+
+#inputForm{
+    background-image: url(../images/abstract-background-waves-white-royal-blue-abstract-background-wallpaper-business-card-abstract-background-waves-white-177869476.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+#info{
+    background-image: url(../images/abstract-background-waves-white-royal-blue-abstract-background-wallpaper-business-card-abstract-background-waves-white-177869476.webp);
+    background-repeat: repeat-y;
+    background-size: contain;
+    color: aliceblue;
+}

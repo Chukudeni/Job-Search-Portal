@@ -4,6 +4,11 @@ function vacancySearch() {
     var input = document.getElementById("userInput").value;
     var inputLocale = document.getElementById("location").value
 
+    document.getElementById("searchText").innerHTML = 
+    `
+        Searching for ${input} jobs in ${inputLocale}
+    
+    `
     //taking input from user to search with api and collect data from the
     // api database
     fetch(`http://api.lmiforall.org.uk/api/v1/vacancies/search?location=${inputLocale}&keywords=${input}`)
@@ -44,7 +49,7 @@ function recent(){
     )
     .then(
         data =>{
-
+            // toString().length(23)
             //looping through the array gotten from the API
             for (let index = 0; index < 10; index++) {
                 const element = data[index];

@@ -33,12 +33,18 @@
     </nav>
 
     <!-- form to take in user data and send to javascript -->
-    <form>
-        <input type="text" id="jobTitle" placeholder="Job Title">
+    <form id="inputForm">
+        <input type="text" id="jobTitle" placeholder="Job Title" >
         <br>
-        <input type="number" id="hours" placeholder="Working Hours per week">
+        <input type="number" id="hours" placeholder="Working Hours per week" >
         <br>
-        <input type="number" id="pay" placeholder="Gross Pay Earned per Hour">
+        <input type="number" id="pay" placeholder="Gross Pay Earned per Hour" >
+        <select name="pay" id="payOption">
+            <option value="hour">Hour</option>
+            <option value="week">Week</option>
+            <option value="month">Month</option>
+            <option value="year">Year</option>    
+        </select>
         <!-- <br>
         Year
         <input type="checkbox" id="year" placeholder="Gross Pay Earned per Year" >
@@ -52,7 +58,7 @@
         Hour
         <input type="checkbox" id="hour" placeholder="Gross Pay Earned per Hour"> -->
         <br>
-        <input type="number" id="tax" placeholder="Tax Rate">
+        <input type="number" id="tax" placeholder="Tax Rate" >
         <br>
         <input type="number" id="ni" placeholder="NI Rate">
         <br>
